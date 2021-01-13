@@ -1,0 +1,377 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 8090,
+      "max": [
+        4.1394000053405762,
+        3.1303300857543945,
+        4.6271300315856934
+      ],
+      "min": [
+        -4.1394000053405762,
+        -3.1303501129150391,
+        -1.8848099708557129
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 97080,
+      "componentType": 5126,
+      "count": 8090,
+      "max": [
+        0.99999076128005981,
+        0.99999469518661499,
+        1
+      ],
+      "min": [
+        -0.99999076128005981,
+        -0.99999469518661499,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 8090,
+      "max": [
+        1,
+        1,
+        0.99999082088470459,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99975138902664185,
+        -0.99484509229660034,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 8090,
+      "max": [
+        0.99356001615524292,
+        0.99479997158050537
+      ],
+      "min": [
+        0.0076399999670684338,
+        0.0050400001928210258
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 44352,
+      "max": [
+        8089
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 194160,
+      "componentType": 5126,
+      "count": 21134,
+      "max": [
+        14.451109886169434,
+        5.4199600219726562,
+        9.1069297790527344
+      ],
+      "min": [
+        -19.766689300537109,
+        -5.4199600219726562,
+        -3.9303300380706787
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 447768,
+      "componentType": 5126,
+      "count": 21134,
+      "max": [
+        0.99999028444290161,
+        0.99998658895492554,
+        1
+      ],
+      "min": [
+        -0.99999850988388062,
+        -0.99998658895492554,
+        -0.99995118379592896
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 129440,
+      "componentType": 5126,
+      "count": 21134,
+      "max": [
+        1,
+        0.99996381998062134,
+        0.99999850988388062,
+        1
+      ],
+      "min": [
+        -1,
+        -0.99996381998062134,
+        -0.99999028444290161,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 64720,
+      "componentType": 5126,
+      "count": 21134,
+      "max": [
+        0.99576002359390259,
+        0.99417001008987427
+      ],
+      "min": [
+        0.010529999621212482,
+        0.0050400001928210258
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 177408,
+      "componentType": 5125,
+      "count": 121248,
+      "max": [
+        21133
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "carrtoonist (https://sketchfab.com/carrtoonist)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/alladins-lamp-4aee21ad3f804c1abe1d846eb31d6269",
+      "title": "Alladin's Lamp"
+    },
+    "generator": "Sketchfab-4.77.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 662400,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 233792,
+      "byteOffset": 662400,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 701376,
+      "byteOffset": 896192,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 467584,
+      "byteOffset": 1597568,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2065152,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Gold.PBR_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Gold.PBR",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "roughnessFactor": 0.087080792700000006
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Lamp.Lid_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Lamp.Bottom_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.19598000000000004,
+        0,
+        0,
+        0,
+        0,
+        0.19598000000000004,
+        0,
+        0,
+        0,
+        0,
+        0.19598000000000004,
+        0,
+        0.40612999999999999,
+        -0.20693000000000003,
+        2.3728799999999994,
+        1
+      ],
+      "name": "Lamp.Lid"
+    },
+    {
+      "mesh": 0,
+      "name": "Lamp.Lid_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        0.18974000000000005,
+        0,
+        0,
+        0,
+        0,
+        0.18974000000000005,
+        0,
+        0,
+        0,
+        0,
+        0.18974000000000005,
+        0,
+        0.43486000000000008,
+        -0.20693000000000003,
+        0.76944000000000012,
+        1
+      ],
+      "name": "Lamp.Bottom"
+    },
+    {
+      "mesh": 1,
+      "name": "Lamp.Bottom_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
