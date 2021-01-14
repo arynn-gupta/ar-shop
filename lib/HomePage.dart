@@ -3,6 +3,7 @@ import 'StyleScheme.dart';
 import 'ProductPage.dart';
 import 'LoginPage.dart';
 import 'database.dart';
+import 'PlayButton.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -136,9 +137,7 @@ class _homePageState extends State<homePage> {
                               for (var i = 0;
                                   i < (product_name.length / 2).round();
                                   i++)
-                                productWidget(
-                                    "right",i,
-                                    2),
+                                productWidget("right", i, 2),
                             ],
                           ),
                         ),
@@ -202,17 +201,14 @@ class _homePageState extends State<homePage> {
                     ),
                   ),
                   Container(
-                    height: 70,
-                    width: 70,
-                    decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          begin: Alignment.topRight,
-                          end: Alignment.bottomLeft,
-                          colors: [Color(0xfff96060), Colors.red],
-                        ),
-                        shape: BoxShape.circle),
-                    child: Center(
-                      child: Icon(Icons.mic, color: Colors.white, size: 30),
+                    height: 80,
+                    width: 80,
+                    child: PlayButton(
+                      pauseIcon:
+                          Icon(Icons.record_voice_over, color: Colors.white, size: 30),
+                      playIcon:
+                          Icon(Icons.mic, color: Colors.white, size: 40),
+                      onPressed: () {},
                     ),
                   ),
                   Container(
@@ -251,8 +247,7 @@ class _homePageState extends State<homePage> {
     );
   }
 
-  Container productWidget(String side, var i,
-      double heightMultiplier) {
+  Container productWidget(String side, var i, double heightMultiplier) {
     return Container(
       margin: EdgeInsets.all(10),
       padding: EdgeInsets.symmetric(vertical: 30, horizontal: 5),
@@ -270,7 +265,8 @@ class _homePageState extends State<homePage> {
               child: Container(
                 decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: AssetImage('asset/products/'+product_name[i]+' (1).png'),
+                        image: AssetImage(
+                            'asset/products/' + product_name[i] + ' (1).png'),
                         fit: BoxFit.contain)),
               ),
             ),
@@ -283,7 +279,7 @@ class _homePageState extends State<homePage> {
                   color: Colors.grey, fontSize: 17, fontFamily: 'Avenir'),
             ),
             Text(
-              "\₹ "+product_price[i],
+              "\₹ " + product_price[i],
               style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.w700,

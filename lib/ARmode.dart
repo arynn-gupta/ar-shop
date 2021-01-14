@@ -34,7 +34,7 @@ class _arModeState extends State<arMode> {
       name: product_name[current_product],
       object3DFileName: product_name[current_product]+'.sfb',
       scale: vector.Vector3(.5, .5, .5),
-      position: vector.Vector3(0, -4, -2),
+      position: vector.Vector3(0, -1, -1),
       rotation: vector.Vector4(0, 0, 0, 0),
     );
     controller.addArCoreNode(node);
